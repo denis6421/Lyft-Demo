@@ -1,0 +1,421 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family:  Tahoma, Verdana, Segoe, sans-serif;
+  box-sizing: border-box;
+  height: auto;
+}
+body p{
+  letter-spacing: 0.5px;
+  font-weight: lighter;
+}
+main {
+  width: 100%;
+  height: 700px;
+  background-image: url("images/car.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main_header {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  border-color: #d8dce6;
+  background: linear-gradient(180deg, rgba(51, 52, 71, .7), rgba(51, 52, 71, 0));
+  z-index: 10;
+  transition: 1s;
+}
+.main_header img{
+  width: 70px;
+  margin-left: 80px;
+  margin-top: 30px;
+
+}
+.main_header img:last-child{
+  display: none;
+}
+
+.main_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.main_text {
+  font-size: 3rem;
+  width: 450px;
+  height: 150px;
+  color: #f3f3f5;
+  font-weight: bold;
+  margin-top: 250px;
+}
+
+.form {
+  width: 400px;
+  background: white;
+  height: 380px;
+  border-radius: 15px;
+  margin-left: 80px;
+  margin-top: 120px;
+  color: #333447;
+}
+
+.form_wrapper {
+  padding: 30px 30px 30px 30px;
+}
+
+.form_wrapper p {
+  margin: 0px;
+}
+
+.form_wrapper p:first-child {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.form_wrapper p:nth-child(2) {
+  margin-top: 15px;
+  line-height: 150%;
+  font-size: 17px;
+}
+
+.form_wrapper input[type=number] {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #d8dce6;
+  margin-top: 20px;
+  outline: none;
+  text-indent: 20px;
+  font-size: 18px;
+}
+
+.form_wrapper input::placeholder {
+  padding-left: 5%;
+  font-size: 18px;
+}
+
+.form_check {
+  margin-top: 20px;
+}
+
+body a {
+  text-decoration: none;
+  color: #ff00bf;
+}
+
+body a:hover {
+  text-decoration: underline;
+  color: #b30086;
+}
+
+.form_wrapper button {
+  width: 100%;
+  height: 50px;
+  background-color: #ea0b8c;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form_wrapper p:last-child {
+  margin-top: 20px;
+}
+
+.calculator {
+  height: 190px;
+  color: #333447;
+  background: #d8dce6;
+  position: relative;
+}
+
+.calculator_wrapper {
+  width: 530px;
+  position: absolute;
+  right: 40%;
+
+  margin-top: 15px;
+}
+
+.calculator_wrapper p {
+  margin: 0px;
+}
+
+.calculator_wrapper p:first-child {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.calculator_wrapper p:nth-child(2) {
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.calculator_wrapper div {
+  margin-top: 20px;
+}
+
+.calculator_wrapper div input, button {
+  width: 160px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.calculator_wrapper div input::placeholder {
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.calculator_wrapper div input {
+  text-indent: 20px;
+}
+
+.calculator_wrapper div button {
+  cursor: pointer;
+  background: #ea0b8c;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.last_section {
+  height: 800px;
+  background: #f3f3f5;
+  text-align: center;
+  color: #333447;
+}
+
+.last_section_wrapper {
+  width: 70%;
+  margin: auto;
+}
+
+.last_section p {
+  margin: 0px;
+}
+
+.last_section p:first-child {
+  padding-top: 55px;
+  font-size: 30px;
+}
+
+.last_section p:nth-child(2) {
+  margin-top: 20px;
+
+  line-height: 150%;
+}
+
+.last_section p:nth-child(3) {
+  margin-top: 20px;
+
+  line-height: 150%;
+}
+
+.last_section p:nth-child(4) {
+  margin-top: 60px;
+  font-size: 30px;
+}
+
+.last_section_flex {
+  height: 430px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.last_section_flex div {
+  width: 300px;
+  height:350px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align:   center;
+  box-sizing: border-box;
+}
+.last_section_flex div p{
+  width: 100%;
+  font-size: 16px;
+
+}
+.last_section_flex div:nth-child(2){
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.last_section_flex div img {
+  width: 70px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.last_section_flex div:last-child img{
+  width: 88px;
+}
+
+.scroll_div {
+  height: 270px;
+  width: 100%;
+  background: #d8dce6;
+  position: relative;
+}
+
+.scroll_div div:last-child {
+  width: 400px;
+  position: absolute;
+  top: 30px;
+  left: 33%;
+  margin-left: 50px;
+}
+
+.scroll_div div p {
+  font-size: 18px;
+}
+
+.scroll_div div p:first-child {
+  font-size: 30px;
+}
+
+.scroll_div_img {
+  position: absolute;
+  left: 15%;
+  top: -45px;
+}
+
+.scroll_div_img img {
+  width: 170px;
+}
+
+
+
+.left_arrow, .right_arrow {
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-top: 3px solid blue;
+  border-left: 3px solid blue;
+  cursor: pointer;
+}
+
+.left_arrow {
+  position: absolute;
+top: 50%;
+  left: 30px;
+  transform: rotate(-45deg);
+}
+
+.right_arrow {
+  transform: rotate(135deg);
+  position: absolute;
+  top: 50%;
+  right: 30px;
+}
+
+footer {
+  width: 100%;
+  height:auto;
+  background: #f3f3f5;
+}
+
+.footer_wrapper {
+  padding-top: 50px;
+  height: 100%;
+  color: #333447;
+}
+
+.footer_wrapper section {
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.heart_img {
+  width: 330px;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.stars_img {
+  width: 330px;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.footer_wrapper img {
+  width: 130px;
+  margin-top: 50px;
+}
+
+
+
+.insurance_text, .passangers_rating_text {
+  width: 500px;
+  line-height: 150%;
+  font-size: 18px;
+  margin-right: 100px;
+
+}
+
+.insurance_text p:first-child, .passangers_rating_text p:first-child {
+  font-size: 25px;
+  font-weight: bold;
+  color: #333447;
+}
+
+.questions_box {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 30px 70px 30px 70px;
+  margin-top: 70px;
+     color: #333447;
+
+}
+
+.questions_box h1 {
+  text-align: center;
+}
+
+.questions_box p {
+  margin-left: 30px;
+  line-height: 150%;
+}
+
+.questions_box div {
+  text-align: center;
+  width: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.end {
+  text-align: center;
+  margin-top: 70px;
+
+}
+
+.end button {
+  width: 150px;
+  height: 50px;
+  background: #b9096f;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 70px;
+  cursor: pointer;
+
+}
+.demo{
+
+  text-align: center;
+}
