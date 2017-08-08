@@ -184,7 +184,7 @@ width: 75%;
 
   }
   .scroll_div{
-    height: 400px;
+    height: 420px;
     text-align: center;
     display: flex;
     justify-content:  center;
@@ -195,7 +195,7 @@ width: 75%;
         position: static;
         margin: 0px;
         margin: auto;
-        width: 95%;
+        width: 90%;
 
     }
 
