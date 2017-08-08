@@ -183,6 +183,9 @@ width: 80%;
 
 
   }
+  .calculator{
+  height: 300px;
+  }
   .scroll_div{
     height: 420px;
     text-align: center;
